@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:gravity="center"
+android:paddingStart="28dp"
+android:paddingEnd="28dp"
+android:layout_centerInParent="true">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:onClick="bntrecord"
+        android:textColor="@color/white"
+        android:id="@+id/Button1"
+        android:padding="12dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/BLUE"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:onClick="bntstop"
+        android:textColor="@color/white"
+        android:id="@+id/Button3"
+        android:padding="12dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/BLUE"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:onClick="bntplay"
+        android:textColor="@color/white"
+        android:id="@+id/Button2"
+        android:padding="12dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/BLUE"
+        />
+
+
+
+
+
+</LinearLayout>
